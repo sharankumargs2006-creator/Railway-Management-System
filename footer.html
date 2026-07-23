@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IR</title>
+
+    <!-- Required CSS -->
+    <link rel="icon" type="icon/png" href="asset/img/logo/rail_icon.png">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="asset/css/animate.css">
+    <link rel="stylesheet" href="asset/css/hover-min.css">
+    <link rel="stylesheet" href="asset/css/custom.css">
+    
+    <style>
+        .modern-footer {
+            background: linear-gradient(#0000ff);
+            padding: 4rem 0 2rem;
+            color:black;
+        }
+
+        .footer-section {
+            margin-bottom: 2rem;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links li {
+            margin-bottom: 1rem;
+        }
+
+        .footer-links a {
+            color:black;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .footer-links a:hover {
+            color: #577e8f;
+            transform: translateX(5px);
+        }
+
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(12, 11, 11, 0.1);
+            color:rgb(1, 32, 1);
+            margin-right: 0.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: #0b0c0c;
+            transform: translateY(-3px);
+        }
+
+        .contact-info i {
+            width: 24px;
+            height: 24px;
+            color:rgb(10, 9, 10);
+            margin-right: 10px;
+        }
+
+        .copyright {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 2rem;
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .footer-section {
+                text-align: center;
+                margin-bottom: 3rem;
+            }
+
+            .social-links {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <footer class="modern-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-section">
+			
+                    <h5 class="mb-4">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="trainschedule.php">Train Schedule</a></li>
+                        <li><a href="pnrstatus.php">PNR Status</a></li>
+                        <li><a href="cancelticket.php">Cancel Ticket</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 footer-section">
+                    <h5 class="mb-4">About</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact-us.php">Contact Us/Feedback</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-section">
+                    <h5 class="mb-4">Connect With Us</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-section">
+                    <h5 class="mb-4">Contact Info</h5>
+                    <div class="contact-info">
+                        <p><i class="fa fa-phone"></i> (+91) 12345678</p>
+                        <p><i class="fa fa-envelope"></i>sharankumargs@gmail.com</p>
+                        <p><i class="fa fa-map-marker-alt"></i> KLE JT BCA College Gadag,<br>
+                        Hatalageri Naka, Gadag,<br>Karnataka.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; <?php echo date('Y'); ?> Indian Railways | All rights reserved</p>
+                <p class="mt-2">Developed by sharankumar g s</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="asset/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="asset/js/popper.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+</body>
+</html>
